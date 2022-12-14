@@ -34,6 +34,9 @@ let itemsContent = '';
 for(let i = 0; i < imagesArray.length; i++){
     itemsContent += `<div class="item">
         <img src="./img/${imagesArray[i].image}">
+        <div>
+        <h3>${imagesArray[i].titolo}</h3>
+        </div>
     </div>`
 }
 
