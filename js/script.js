@@ -1,28 +1,28 @@
 //Creo array immagini
 const imagesArray = [
     {
-        titolo:"",
-        descrizione:"",
+        titolo:"Spiderman",
+        descrizione:"Gioco mediocre",
         image:"01.webp",
     },
     {
-        titolo:"",
-        descrizione:"",
+        titolo:"Rachet",
+        descrizione:"Gioco Scarso",
         image:"02.webp",
     },
     {
-        titolo:"",
-        descrizione:"",
+        titolo:"Fortnite",
+        descrizione:"Gioco Terribile",
         image:"03.webp",
     },
     {
-        titolo:"",
-        descrizione:"",
+        titolo:"Stray",
+        descrizione:"Non ne parliamo",
         image:"04.webp",
     },
     {
-        titolo:"",
-        descrizione:"",
+        titolo:"Marvel",
+        descrizione:"Mai giocato",
         image:"05.webp",
     },
     
@@ -36,6 +36,7 @@ for(let i = 0; i < imagesArray.length; i++){
         <img src="./img/${imagesArray[i].image}">
         <div>
         <h3>${imagesArray[i].titolo}</h3>
+        <p>${imagesArray[i].descrizione}</p>
         </div>
     </div>`
 }
