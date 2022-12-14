@@ -19,6 +19,7 @@
 
 .item{
     display: none;
+    position: relative;
 }
 
 .item-slider, .item, img{
@@ -81,5 +82,17 @@
 
 
 h3{
+    color: red;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:50%;
+    left: 50%;
+    
+}
+p{
     background-color: red;
+    position: absolute;
+    top:40%;
+    left: 40%;
 }
